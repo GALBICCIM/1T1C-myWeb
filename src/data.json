@@ -1,0 +1,59 @@
+{
+	"myProfile": [
+		{
+			"id": "1",
+			"name": "이름",
+			"value": "박승원"
+		},
+		{
+			"id": "2",
+			"name": "닉네임",
+			"value": "GALBICCIM"
+		},
+		{
+			"id": "3",
+			"name": "소속",
+			"value": "한세사이버보안고등학교"
+		},
+		{
+			"id": "4",
+			"name": "전화번호",
+			"value": "01031583683"
+		},
+		{
+			"id": "5",
+			"name": "이메일",
+			"value": "godvictory0909@gmail.com"
+		}
+	],
+	"wise": [
+		{ "content": "노력 없이 쓰인 글은 대개 감흥 없이 읽힌다. -사무엘 잭슨" },
+		{ "content": "그 어떤 것에서라도 내적인 도움과 위안을 찾을 수 있다면 그것을 잡아라. -마하트마 간디" },
+		{ "content": "춤추는 별을 잉태하려면 반드시 스스로의 내면에 혼돈을 지녀야 한다. -프리드리히 니체" },
+		{ "content": "우리가 노력 없이 얻는 거의 유일한 것은 노년이다. -글로리아 피처" },
+		{ "content": "가장 큰 위험은 위험 없는 삶이다. -스티브 코비" },
+		{ "content": "멈추지만 않는다면 얼마나 천천히 가는가는 문제가 되지 않는다. -공자" }
+	],
+	"friend": [
+		{
+			"id": "1",
+			"name": "권기현",
+			"url": "https://imratatouille.github.io/myweb/"
+		},
+		{
+			"id": "2",
+			"name": "정하늘",
+			"url": "https://junghaneuul.github.io/1team_1company_2/"
+		},
+		{
+			"id": "3",
+			"name": "조요셉",
+			"url": "https://joseph20080419.github.io/myweb/"
+		},
+		{
+			"id": "4",
+			"name": "오정우",
+			"url": "https://WeePoong.github.io/myweb/"
+		}
+	]
+}

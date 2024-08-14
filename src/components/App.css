@@ -1,0 +1,113 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: beige;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.2rem 0;
+}
+
+section {
+	text-align: center;
+}
+
+section p {
+	margin-bottom: 1.5rem;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+header ul {
+	display: flex;
+}
+
+header ul > li {
+	list-style-type: none;
+	margin-left: 1.5rem;
+}
+
+header ul > li > a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 800;
+	padding-bottom: 5px;
+	color: gray;
+}
+
+header > p {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.main-container {
+	max-width: 1920px;
+	margin: 10px 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.proPhoto {
+	border: 1px solid;
+	border-radius: 30%;
+	margin: 2rem;
+}
+
+.proDesc {
+	width: 400px;
+	margin: 0 auto;
+	margin-bottom: 2rem;
+}
+
+section[id="sec-1"] ul {
+	padding: 5px;
+}
+
+section[id="sec-1"] ul li {
+	display: flex;
+	color: rgb(18, 3, 71);
+}
+
+section[id="sec-2"] a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: bisque;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+section[id="sec-2"] li {
+	width: 350px;
+	height: 60px;
+	border-radius: 20px;
+	background-color: darkolivegreen;
+	margin-bottom: 15px;
+	list-style-type: none;
+}
+
+.proEssay {
+	font-size: 1.2rem;
+	max-width: 360px;
+	margin: 0 auto;
+	line-height: 1.8rem;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	text-indent: 10px;
+	text-align: left;
+}
+
+.mapImg {
+	width: 500px;
+	height: 450px;
+}
