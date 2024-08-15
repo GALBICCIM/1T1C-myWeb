@@ -65,7 +65,12 @@ const App: React.FC = () => {
 					위치
 				</p>
 				<a href="https://naver.me/IDBpoplJ" target="_blank">
-					<img className="map-img" src={process.env.PUBLIC_URL + "/imgs/map.png"} alt="Image Error!" />
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3163.1432683726207!2d126.94942191121255!3d37.55168822486317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c989ec9569761%3A0x9eb569d21b56c211!2z7ZWc7IS47IKs7J2067KE67O07JWI6rOg65Ox7ZWZ6rWQ!5e0!3m2!1sko!2skr!4v1723610783022!5m2!1sko!2skr"
+						width="500"
+						height="450"
+						loading="lazy"
+					></iframe>
 				</a>
 			</section>
 			<footer>

@@ -107,7 +107,7 @@ section[id="sec-2"] ul li:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 20em;
+	height: 25em;
 }
 
 .friend-name {
@@ -123,11 +123,6 @@ section[id="sec-2"] ul li:hover {
 	word-spacing: 1px;
 	text-indent: 10px;
 	text-align: left;
-}
-
-.map-img {
-	width: 500px;
-	height: 450px;
 }
 
 footer {
