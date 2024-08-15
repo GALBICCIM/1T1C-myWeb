@@ -4,7 +4,7 @@
 	line-height: 2.5rem;
 }
 
-.btnExe {
+.btn-ex {
 	width: 100px;
 	height: 50px;
 	background-color: blueviolet;
@@ -15,7 +15,7 @@
 	cursor: grab;
 }
 
-.btnExe:hover {
+.btn-ex:hover {
 	background-color: bisque;
 	transition: 0.7s;
 }

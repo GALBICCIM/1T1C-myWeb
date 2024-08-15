@@ -57,13 +57,13 @@ header > p {
 	align-items: center;
 }
 
-.proPhoto {
+.pro-photo {
 	border: 1px solid;
 	border-radius: 30%;
 	margin: 2rem;
 }
 
-.proDesc {
+.pro-desc {
 	width: 400px;
 	margin: 0 auto;
 	margin-bottom: 2rem;
@@ -78,25 +78,43 @@ section[id="sec-1"] ul li {
 	color: rgb(18, 3, 71);
 }
 
-section[id="sec-2"] a {
+section[id="sec-2"] ul li {
+	width: 350px;
+	height: 60px;
+	border-radius: 25px;
+	background-color: darkolivegreen;
+	list-style-type: none;
+	transition: 0.3s;
+}
+
+section[id="sec-2"] ul li a {
 	text-decoration: none;
 	font-size: 1.3rem;
 	color: bisque;
 	display: flex;
 	align-items: center;
 	text-align: center;
+	height: 100%;
+	width: 100%;
 }
 
-section[id="sec-2"] li {
-	width: 350px;
-	height: 60px;
-	border-radius: 20px;
-	background-color: darkolivegreen;
-	margin-bottom: 15px;
-	list-style-type: none;
+section[id="sec-2"] ul li:hover {
+	transform: scale(1.05);
+	background-color: rgb(156, 186, 105);
 }
 
-.proEssay {
+.friend-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 20em;
+}
+
+.friend-name {
+	padding-left: 20px;
+}
+
+.pro-essay {
 	font-size: 1.2rem;
 	max-width: 360px;
 	margin: 0 auto;
@@ -107,7 +125,18 @@ section[id="sec-2"] li {
 	text-align: left;
 }
 
-.mapImg {
+.map-img {
 	width: 500px;
 	height: 450px;
+}
+
+footer {
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+	color: gray;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgb(11, 86, 81);
 }

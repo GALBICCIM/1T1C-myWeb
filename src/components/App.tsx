@@ -26,9 +26,9 @@ const App: React.FC = () => {
 			</header>
 			<section id="sec-1">
 				<p>밤 하늘의 별</p>
-				<img className="proPhoto" src={process.env.PUBLIC_URL + "/imgs/logo_two.png"} alt="Img Error!" />
+				<img className="pro-photo" src={process.env.PUBLIC_URL + "/imgs/logo_two.png"} alt="Img Error!" />
 
-				<div className="proDesc">
+				<div className="pro-desc">
 					<ul>
 						{myData.myProfile.map((data) => (
 							<li key={data.id}>
@@ -38,17 +38,19 @@ const App: React.FC = () => {
 					</ul>
 				</div>
 
-				<p className="proEssay">저는 IT에 관심이 많은 학생입니다.</p>
+				<p className="pro-essay">저는 IT에 관심이 많은 학생입니다.</p>
 				<Wise />
 			</section>
 			<section id="sec-2">
 				<p>친구들</p>
 
 				<div>
-					<ul>
+					<ul className="friend-list">
 						{myData.friend.map((prev) => (
 							<li key={prev.id}>
-								<a href={prev.url}>{prev.name}</a>
+								<a href={prev.url} target="_blank">
+									<span className="friend-name">{prev.name}</span>
+								</a>
 							</li>
 						))}
 					</ul>
@@ -63,7 +65,7 @@ const App: React.FC = () => {
 					위치
 				</p>
 				<a href="https://naver.me/IDBpoplJ" target="_blank">
-					<img className="mapImg" src={process.env.PUBLIC_URL + "/imgs/map.png"} alt="Image Error!" />
+					<img className="map-img" src={process.env.PUBLIC_URL + "/imgs/map.png"} alt="Image Error!" />
 				</a>
 			</section>
 			<footer>

@@ -11,7 +11,7 @@ const Wise: React.FC = () => {
 
 	return (
 		<div className="container">
-			<button className="btnExe" onClick={btnClick}>
+			<button className="btn-ex" onClick={btnClick}>
 				명언 보기
 			</button>
 			<p className="quotes">{myData.wise[num].content}</p>
